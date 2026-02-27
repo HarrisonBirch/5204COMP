@@ -160,10 +160,10 @@ public class systemClass {
 	    	        	saveStaffToFile(newStaff);
 	    	        		System.out.println("You have successfully registered");
 	        			
-	    	        		System.out.println("Current Staff List:");
-	    	        		for (Staff s : staffList) {
-	    	        		    System.out.println(s);
-	    	        		}
+//	    	        		System.out.println("Current Staff List:");
+//	    	        		for (Staff s : staffList) {
+//	    	        		    System.out.println(s);
+//	    	        		}
 	        				
 	        				}
 	        				
@@ -190,9 +190,9 @@ public class systemClass {
 		  
 	        scanner.close();
 
-	    	System.out.println(new File("staff.txt").getAbsolutePath());
-	    	loadStaffFromFile(staffList);
-	    	System.out.println(staffList);	   
+//	    	System.out.println(new File("staff.txt").getAbsolutePath());
+//	    	loadStaffFromFile(staffList);
+//	    	System.out.println(staffList);	   
 	        
 	    }
 	    
@@ -258,5 +258,7 @@ public class systemClass {
 
 	    
 	  }
+
+
 
 
